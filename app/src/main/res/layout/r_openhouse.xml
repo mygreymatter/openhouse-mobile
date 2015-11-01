@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+                android:background="@android:color/white"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView android:layout_width="match_parent"
+              android:id="@+id/openhouse_name"
+              android:padding="10dp"
+              android:gravity="left|top"
+              android:textSize="30sp"
+              android:text="OpenHouse Event"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+              android:id="@+id/openhouse_date"
+              android:padding="10dp"
+              android:layout_below="@+id/openhouse_name"
+              android:textSize="20sp"
+              android:text="On 31st Dec"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+              android:id="@+id/by_user"
+              android:padding="10dp"
+              android:layout_below="@+id/openhouse_name"
+              android:gravity="right|bottom"
+              android:textSize="20sp"
+              android:text="mayo"
+              android:layout_height="wrap_content"/>
+
+</RelativeLayout>

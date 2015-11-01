@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">openhouse</string>
+    <string name="app_name">OpenHouse</string>
+    <string name="android_api_key">AIzaSyCykLi48F7nr_rxeoeQfQBEm_ktYJkQkYU</string>
+    <string name="parse_app_id">MZbt2QMipnSc0koDQVpoJvzhpkL55B9WIg7GU9No</string>
+    <string name="parse_client_key">cbl1rhIGsXcPxlD5wgJcun48vfnX9sOkSpXbMjMn</string>
 </resources>

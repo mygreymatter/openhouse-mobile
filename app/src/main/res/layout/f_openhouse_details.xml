@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray"
+                android:clickable="true"
+                tools:context="com.mayo.openhouse.openhouse.FragOpenhouseDetails">
+
+    <RelativeLayout android:id="@+id/openhouse_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white">
+        <TextView
+            android:id="@+id/openhouse_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Openhouse Name"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/openhouse_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/openhouse_name"
+            android:layout_marginLeft="5dp"
+            android:gravity="left"
+            android:text="on 31 Dec"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/by_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/openhouse_name"
+            android:layout_marginRight="5dp"
+            android:gravity="right"
+            android:text="Agent: mayo"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/properties_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/openhouse_layout"
+        android:gravity="center"
+        android:text="Properties"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:textSize="20sp"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/properties_label"/>
+
+
+</RelativeLayout>
